@@ -1,0 +1,8 @@
+# Env directories
+.env
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
