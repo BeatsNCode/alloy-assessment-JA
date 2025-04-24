@@ -75,3 +75,25 @@ a. Submitting an application with the last name Review (so you’d submit an
 applicant with the name Jessica Review) will result in an “outcome” of
 “Manual Review”, and the last name Deny will result in an “outcome” of
 “Deny”.
+
+---------------------------------------------------------------------------------------
+
+## How to run the function
+
+1. Clone the repo
+
+```
+git clone https://github.com/BeatsNCode/alloy-assessment-JA.git
+cd alloy-assessment-JA
+```
+
+2. Create `.env` file and add environment variables. You may also need to run `pip install requests python-dotenv`
+```
+ALLOY_APPLICATION_TOKEN=<your_application_token>
+ALLOY_APPLICATION_SECRET=<your_application_secret>
+```
+
+3. Use the Terminal to run the script and include all required and optional arguments. For example:
+```
+python3 alloy-tech-assessment-JA.py John Review 2000-01-01 123456789 john.review@email.com "123 Home Street" Boston MA 02110 US
+```
